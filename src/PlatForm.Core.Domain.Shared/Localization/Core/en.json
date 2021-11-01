@@ -1,0 +1,31 @@
+﻿{
+  "culture": "en",
+  "texts": {
+    "Menu:Home": "Home",
+    "Welcome": "Welcome",
+    "LongWelcomeMessage": "Welcome to the application. This is a startup project based on the ABP framework. For more information, visit abp.io.",
+    "Permission:Create": "Thêm mới",
+    "Permission:Update": "Chỉnh sửa",
+    "Permission:Delete": "Xóa",
+    "Permission:Common": "Chung",
+    "Permission:BoPhan": "Bộ phận",
+    "Permission:NhanVien": "Nhân viên",
+
+    "Create": "Thêm mới",
+    "Edit": "Chỉnh sửa",
+    "Search": "Tìm kiếm",
+    "STT": "STT",
+    "TuKhoa": "Từ khóa",
+    "PlaceHolderSearch": "Nhập từ khóa ...",
+    "PlaceHolder": "Nhập tên",
+
+    "TitleBoPhan": "Bộ phận",
+    "BoPhanName": "Tên bộ phận",
+    "GhiChu": "Ghi chú",
+    "TitleNhanVien": "Nhân viên",
+    "NhanVienName": "Tên nhân viên",
+    "Tuoi": "Tuổi",
+    "CMND": "CMND",
+    "BoPhan": "Bộ phận"
+  }
+}

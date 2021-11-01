@@ -1,0 +1,34 @@
+{
+  "culture": "vi",
+  "texts": {
+    "Menu:Home": "Trang chủ",
+    "Welcome": "Chào mừng bạn",
+    "LongWelcomeMessage": "Chào mừng bạn đến ứng dụng. Đây là một dự án khởi nghiệp dựa trên khung ABP. Để biết thêm thông tin, hãy truy cập abp.io.",
+
+    "Permission:Create": "Thêm mới",
+    "Permission:Update": "Chỉnh sửa",
+    "Permission:Delete": "Xóa",
+    "Permission:Common": "Chung",
+    "Permission:BoPhan": "Bộ phận",
+    "Permission:NhanVien": "Nhân viên",
+
+    "Create": "Thêm mới",
+    "Edit": "Chỉnh sửa",
+    "Search": "Tìm kiếm",
+    "STT": "STT",
+    "TuKhoa": "Từ khóa",
+    "PlaceHolderSearch": "Nhập từ khóa ...",
+    "PlaceHolder": "Nhập tên",
+
+    "TitleBoPhan": "Bộ phận",
+    "BoPhanName": "Tên bộ phận",
+    "GhiChu": "Ghi chú",
+    "TitleNhanVien": "Nhân viên",
+    "NhanVienName": "Tên nhân viên",
+    "Tuoi": "Tuổi",
+    "CMND": "CMND",
+    "BoPhan": "Bộ phận"
+
+
+  }
+}

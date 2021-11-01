@@ -1,0 +1,32 @@
+﻿@page
+@using PlatForm.Core.Localization
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.TagHelpers.Modal;
+@inject IHtmlLocalizer<CoreResource> L
+@model Core.Web.Pages.Commons.NhanVien.EditModalModel
+@{
+    Layout = null;
+}
+<abp-dynamic-form abp-model="ViewModel" data-ajaxForm="true" asp-page="EditModal">
+    <abp-input asp-for="Id" />
+    <div class="modal fade show" tabindex="-1" role="dialog" aria-modal="true" style="padding-right: 17px; display: block;">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <abp-modal-header title="@L["Edit"].Value @L["TitleNhanVien"].Value"></abp-modal-header>
+                <abp-modal-body>
+                    <abp-form-content />
+                </abp-modal-body>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Hủy bỏ</button>
+                    <button type="submit" class="btn btn-primary" data-busy-text="Đang lưu..."> <span>Lưu</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</abp-dynamic-form>
+<script>
+    //Check tránh trường hợp nhập khoảng trắng
+    $("input").on('change', function () {
+        $(this).val($(this).val().trim());
+    });
+</script>
